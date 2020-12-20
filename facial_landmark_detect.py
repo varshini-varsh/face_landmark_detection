@@ -14,10 +14,11 @@ cap = cv2.VideoCapture(0)
 # To use video file as input
 # cap = cv2.VideoCapture("filename.mp4")
 
-# To detect face
+# now from the dlib, extracting the method get_frontal_face_detector()
 detector = dlib.get_frontal_face_detector()
 
-# To predict 68 landmarks on face
+# assign that object result to frontalFaceDetector to detect face from the image with 
+# the help of the shape_predictor_68_face_landmarks.dat model
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
 
