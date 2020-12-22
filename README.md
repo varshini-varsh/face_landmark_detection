@@ -16,8 +16,19 @@ Steps to find 68 points facial landmarks using OpenCV :
  * face_recognition(1.3.0)
  * cmake           (3.18.4)
  
-68 coordinates are detected for the given face by the face detector. The image is shown below.
-![Face landmarks coordinates image](facial_landmarks_68.jpg)
+68 coordinates are detected!!!!!!
+
+* LEFT JAW LINE             (1-8)
+* CHIN                      (9)
+* RIGHT JAW LINE            (10-17)
+* LEFT EYEBROW              (18-22)
+* RIGHT EYEBROW             (23-27)
+* BRIDGE OF NOSE            (28-31)
+* BOTTOM OF NOSE            (32-36)
+* LEFT EYE                  (37-42)
+* RIGHT EYE                 (43-48)
+* OUTER EDGE OF LIPS        (49-60)
+* INNER EDGE OF LIPS        (61-68)
 
 
 ## **Applications of Facial Keypoint Detection**
